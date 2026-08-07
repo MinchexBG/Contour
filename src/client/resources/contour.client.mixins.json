@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.contour.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ContourClientMixin",
+		"ContourLevelRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

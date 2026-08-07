@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "contour",
+	"version": "${version}",
+	"name": "Contour",
+	"description": "Lights on! Visible players and armor stands get the spotlight treatment.",
+	"authors": ["MinchexBG"],
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.contour.ContourMod"],
+		"client": ["com.contour.client.ContourModClient"],
+		"modmenu": ["com.contour.client.ContourModMenuIntegration"]
+	},
+	"mixins": [
+		"contour.mixins.json",
+		{"config": "contour.client.mixins.json", "environment": "client"}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

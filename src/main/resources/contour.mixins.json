@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.contour.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ContourMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
