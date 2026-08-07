@@ -1,9 +1,32 @@
-# Example Mod
+# Contour
 
-## Setup
+A client-side Fabric mod that highlights visible players and armor stands with customizable RGB outlines.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## Dependencies
+
+Contour requires:
+
+- Fabric API
+- Fabric Language Kotlin
+- Mod Menu
+
+*IMPORTANT* 
+
+
+   Must be in same version as Minecraft version as Contour. Using a different version may cause crashes or the mod failing to load.
+
+#### Development Setup
+
+#### Requirements
+
+- Java JDK 25
+- IntelliJ IDEA
+- Git
+
+
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Contour is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information
+
+## Thanks for using Contour! :)
